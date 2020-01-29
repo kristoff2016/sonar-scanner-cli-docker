@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM openjdk:11-jre-stretch
 
 ARG SONAR_SCANNER_HOME=/opt/sonar-scanner
 ARG NODEJS_HOME=/opt/nodejs
